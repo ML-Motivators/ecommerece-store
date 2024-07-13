@@ -1,0 +1,65 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "virtualwardrob",
+    "collectionId": "062b025c-253a-43fc-972d-e85a67019a63",
+    "dateExported": "2024-06-08T01:59:29.131Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "baca4475-6cda-4bfe-a57c-6adeb3b25856",
+            "name": "Product",
+            "containerId": "",
+            "created": "2024-06-08T01:50:47.779Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "1bdd9f37-ea28-417f-b029-54a42e90c7a1",
+            "colId": "062b025c-253a-43fc-972d-e85a67019a63",
+            "containerId": "baca4475-6cda-4bfe-a57c-6adeb3b25856",
+            "name": "Addproducts",
+            "url": "http://localhost:3000/api/addproducts",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-06-07T14:58:30.482Z",
+            "modified": "2024-06-08T01:52:43.807Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "[{\n  \"title\": \"wear the suit\",\n  \"slug\": \"wear-the-suit\",\n  \"desc\": \"req.body[i].desc\",\n  \"img\": \"req.body[i].img\",\n  \"category\": \"req.body[i].category\",\n  \"price\": 144,\n  \"availableQty\": 32,\n  \"size\": \"req.body[i].size\",\n  \"color\": \"req.body[i].color\"\n}\n]",
+                "form": []
+            }
+        },
+        {
+            "_id": "10d3b483-dbcf-4aef-b8c5-6b803c455581",
+            "colId": "062b025c-253a-43fc-972d-e85a67019a63",
+            "containerId": "baca4475-6cda-4bfe-a57c-6adeb3b25856",
+            "name": "Getproducts",
+            "url": "http://localhost:3000/api/getproducts",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-06-07T16:10:45.538Z",
+            "modified": "2024-06-07T16:11:23.027Z",
+            "headers": []
+        },
+        {
+            "_id": "62421109-ec36-4e6b-999f-2bad8b6312ff",
+            "colId": "062b025c-253a-43fc-972d-e85a67019a63",
+            "containerId": "baca4475-6cda-4bfe-a57c-6adeb3b25856",
+            "name": "updateproducts",
+            "url": "http://localhost:3000/api/updateproducts",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-06-07T16:12:24.938Z",
+            "modified": "2024-06-07T16:16:54.317Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "[{\n  \"title\": \"hahahaha updates\",\n  \"slug\": \"wear-the-hahaaaa\",\n  \"desc\": \"req.body[i].desc\",\n  \"img\": \"req.body[i].img\",\n  \"category\": \"req.body[i].category\",\n  \"price\": 1144,\n  \"availableQty\": 2,\n  \"size\": \"req.body[i].size\",\n  \"color\": \"req.body[i].color\"\n}\n]",
+                "form": []
+            }
+        }
+    ],
+    "ref": "1mzn-bN0N8oIB7InH2xl0skVbZUbNrfKCuIDNm5zO-wNsTl9_aIKjp6MDLZAG09bex_hnFhuqgdm_N1mfOkHNg"
+}
